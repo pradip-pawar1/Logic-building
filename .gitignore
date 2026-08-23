@@ -12,3 +12,7 @@ procedural_programming/03_library_management/map.tldr
 procedural_programming/04_student_report_card_system/map.tldr
 procedural_programming/04_student_report_card_system/plan.md
 procedural_programming/05_number_analyzer/map.tldr
+
+
+*.exe
+C++/test.cpp
