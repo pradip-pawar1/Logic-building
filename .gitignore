@@ -15,4 +15,6 @@ procedural_programming/05_number_analyzer/map.tldr
 
 
 *.exe
+# skip one file
+!C++/02_RPG_Character/game.exe
 C++/test.cpp
