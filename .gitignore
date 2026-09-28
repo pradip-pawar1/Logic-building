@@ -1,3 +1,6 @@
+.venv/
+*__pycache__/
+
 # Object Oriented Programming 
 object_oriented_programming/01_bank_management/map.tldr
 object_oriented_programming/01_bank_management/main.py
