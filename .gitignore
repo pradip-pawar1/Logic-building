@@ -2,11 +2,11 @@
 *__pycache__/
 
 # Object Oriented Programming 
-python/object_oriented_programming/05_vehical_rental_system/test.py
-python/object_oriented_programming/05_vehical_rental_system/dummy.json
+python/vehical_rental_system/test.py
+python/vehical_rental_system/dummy.json
 
 
 *.exe
 # skip one file
-!C++/02_RPG_Character/game.exe
+!C++/RPG_Character/game.exe
 C++/test.cpp
