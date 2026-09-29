@@ -8,10 +8,6 @@ class Vehical:
         self.vhtype = vhtype
         self.pwtype = pwtype
 
-
-    def load_data(self) -> dict:
-        """This method takes tata from other file and makes a copy of it to work on the copy
-        to handel data without making errors in original data"""
         
 
 class Car(Vehical):

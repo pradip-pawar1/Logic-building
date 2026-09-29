@@ -2,19 +2,8 @@
 *__pycache__/
 
 # Object Oriented Programming 
-object_oriented_programming/01_bank_management/map.tldr
-object_oriented_programming/01_bank_management/main.py
-
-object_oriented_programming/03_library_management/script/__pycache__
-
-
-# Procedural Programming
-procedural_programming/01_word_guess_game/map.tldr
-procedural_programming/02_atm_simulation/map.tldr
-procedural_programming/03_library_management/map.tldr
-procedural_programming/04_student_report_card_system/map.tldr
-procedural_programming/04_student_report_card_system/plan.md
-procedural_programming/05_number_analyzer/map.tldr
+python/object_oriented_programming/05_vehical_rental_system/test.py
+python/object_oriented_programming/05_vehical_rental_system/dummy.json
 
 
 *.exe
