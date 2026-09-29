@@ -1,5 +1,5 @@
 from pathlib import Path
-from library import Library
+from python.library_management.script.library import Library
 
 class LibrarySystem:
     '''UI and menu'''

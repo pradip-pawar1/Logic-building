@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 import random
-from membr import Members
+from python.library_management.script.membr import Members
 
 
 class Library:
