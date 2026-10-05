@@ -1,35 +1,32 @@
 {
-    "cars": {
-        "Company": "TATA",
-        "Name": "Harrier",
-        "Model": "v1.0",
-        "Fuel type": "EV",
-        "No. vehicles": 10,
-        "Vehicle type": "Car"
-    },
-    "bike": {
-        "Company": "Yamaha",
-        "Name": "R15",
-        "Model": "v.0",
-        "Fuel type": "Petrol",
-        "No. vehicles": 7,
-        "Vehicle type": "Bike"
-    },
-    "auto": {
-        "Company": "Bajaj",
-        "Name": "Bajaj RE",
-        "Model": "v1.5",
-        "Fuel type": "LPG",
-        "No. vehicles": 25,
-        "Vehicle type": "Rickshaw"
-    },
-    "truck": {
-        "Company": "Ashok Leyland",
-        "Name": "AVTR",
-        "Model": "v16.0",
-        "Fuel type": "Diesel",
-        "No. tyres": 6,
-        "No. vehicles": 5,
-        "Vehicle type": "Truck"
-    }
+    "cars": [
+        {
+            "Company": "TATA",
+            "Name": "Harrier",
+            "Model": "v1.0",
+            "Fuel type": "EV",
+            "Inv. No.": "V001",
+            "Vehicle type": "Car"
+        },
+        {
+            "Company": "Mahindra",
+            "Name": "XUV700",
+            "Model": "v2.0",
+            "Fuel type": "Diesel",
+            "Inv. No.": "V002",
+            "Vehicle type": "Car"
+        }
+    ],
+    "bike": [
+        {
+            "Company": "Yamaha",
+            "Name": "R15",
+            "Model": "v2.0",
+            "Fuel type": "Petrol",
+            "Inv. No.": "V003",
+            "Vehicle type": "Bike"
+        }
+    ],
+    "auto": [],
+    "truck": []
 }

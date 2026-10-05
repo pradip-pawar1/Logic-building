@@ -53,6 +53,192 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 172.74353686945096,
+			"y": 2174.639582844031,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ivHI7DBHNNtFX38HJJUjl",
+			"type": "geo",
+			"props": {
+				"w": 646,
+				"h": 481.5500183105469,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Rental rules"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "A customer can rent only an available vehicle."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "A vehicle cannot have two active rentals at the same time."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "A rental must have a valid start time and expected return time."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Returning a vehicle closes the active rental."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "The final charge is calculated from the rental duration and the vehicle's rate."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Extending a rental changes its expected return time and may change the estimated cost."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aCm7v8",
+			"typeName": "shape"
+		},
+		{
 			"x": 0,
 			"y": 0,
 			"lastActivityTimestamp": 0,
@@ -174,12 +360,105 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 561.7775541469719,
+			"y": 2045.9131197396382,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0kM5k3DNKSV385erNmzCh",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -380.0354444925646,
+					"y": 162.81879326594117
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aDwVU",
+			"typeName": "shape"
+		},
+		{
 			"name": "",
 			"color": "#BD54C6",
 			"imageUrl": "",
 			"meta": {},
 			"id": "user:qQP-DN1mfC2i1F4HpGTc8",
 			"typeName": "user"
+		},
+		{
+			"meta": {},
+			"id": "page:bc0Vbe_x7-qUoknEdkJC_",
+			"name": "Responsibility & Functining",
+			"index": "a2ciM",
+			"typeName": "page"
+		},
+		{
+			"x": 1229.878790338961,
+			"y": 1823.3216772806877,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:h9vC47FEngGXDVBp1ACPd",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 156.3125,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Responsibility"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aFSzo",
+			"typeName": "shape"
 		},
 		{
 			"meta": {},
@@ -200,12 +479,173 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 44.588098403679396,
-			"y": -945.1397294159527,
-			"z": 1,
+			"x": -13.39465865846114,
+			"y": 406.1996916189785,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7VV7cVTuIdvu0ygNub02j",
+			"type": "geo",
+			"props": {
+				"w": 1210.6007215014756,
+				"h": 1137.245560910168,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aILFE",
+			"typeName": "shape"
+		},
+		{
+			"x": 1204.2611130336516,
+			"y": 973.2615495809832,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:qmqh-PoPuW7YVCtVtXdE-",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "l",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 400.0150291388875,
+					"y": -37.86393515303871
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aIk2IV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1437.7620916616336,
+			"y": 130.45083657227656,
+			"z": 0.2304479942686839,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": -188.23922667615375,
+			"y": 1821.7263323056195,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LALTuVYck1okqWFmnxE7r",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 99.14802464722979,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.0253156148263431,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Example"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aEo0b",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:nLqD8tblf6eP2qAIjAYTF",
+			"type": "arrow",
+			"fromId": "shape:szpmNvbdA5mh0Et7vPx2i",
+			"toId": "shape:pZellEGomOVHGKeS3MkA3",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 1,
+					"y": 0.5
+				},
+				"snap": "edge-point",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:iEzV61olgXnd3Hf69X3r6",
+			"type": "arrow",
+			"fromId": "shape:qmqh-PoPuW7YVCtVtXdE-",
+			"toId": "shape:7VV7cVTuIdvu0ygNub02j",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		},
 		{
 			"x": 554.0119458468089,
@@ -270,6 +710,50 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 1817.4136912910499,
+			"y": 2177.5810270241273,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:szpmNvbdA5mh0Et7vPx2i",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "l",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 299.85849192767046,
+					"y": -909.9574052833866
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aKdnE",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:WQYUkxIAlHpYT6vrXtAbX",
 			"type": "arrow",
@@ -288,6 +772,295 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 567.1978435681899,
+			"y": 2047.502018043225,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YGiF4oglqlbr8vnl59rQ6",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -0.4065927778378864,
+					"y": 108.14710294604151
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aCqHe4",
+			"typeName": "shape"
+		},
+		{
+			"x": 1857.5009138617593,
+			"y": 628.740415254141,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XVK4iDnV1etX5rzV1g1CD",
+			"type": "geo",
+			"props": {
+				"w": 972,
+				"h": 691.8031805802259,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Build Phases"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Phase 1 — Vehicle model"
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Define what a vehicle stores, what its state means, and which operations it owns. Create and inspect a few vehicle objects. No menus or JSON yet."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Phase 2 — Customer and Rental"
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Define what information a customer needs and what one rental record must preserve. Decide how a rental represents active, completed, or cancelled states."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Phase 3 — RentalService"
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Implement the workflow conceptually: find vehicle → validate availability → create rental → update vehicle state. Then design the return workflow."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Phase 4 — Owner and customer panels"
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Add menus that call the existing operations. The menus should not contain the actual rental business logic."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Phase 5 — JSON storage"
+												}
+											]
+										},
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Only after the in-memory system works, decide how each object is converted to and restored from data. JSON stores data, not live Python objects."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aHVNX",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:BYBl0vOnxkkKDA8hYoZgf",
 			"type": "arrow",
@@ -302,6 +1075,24 @@
 				},
 				"snap": "edge-point",
 				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:V-jf8q4czGF6A7Kg0iYNU",
+			"type": "arrow",
+			"fromId": "shape:YGiF4oglqlbr8vnl59rQ6",
+			"toId": "shape:gYJWajxbOk_vG3QdtVL03",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
 			},
 			"typeName": "binding"
 		},
@@ -485,7 +1276,7 @@
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "a4VLX",
+			"index": "a3sh7xG",
 			"typeName": "shape"
 		},
 		{
@@ -509,10 +1300,8 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:S20t55Xq2ANrklCH-_e-Q"
-			],
-			"hoveredShapeId": "shape:S20t55Xq2ANrklCH-_e-Q",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -777,6 +1566,24 @@
 		},
 		{
 			"meta": {},
+			"id": "binding:5-qZQkrEM_0v29NO5Q1W2",
+			"type": "arrow",
+			"fromId": "shape:szpmNvbdA5mh0Et7vPx2i",
+			"toId": "shape:XVK4iDnV1etX5rzV1g1CD",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4999999999999998,
+					"y": 0.9999999999999999
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
 			"id": "binding:HH__X0nn17HFQ1tRTnXLj",
 			"type": "arrow",
 			"fromId": "shape:cVnxLkaHozCweN0DsXFjL",
@@ -792,6 +1599,348 @@
 				"terminal": "start"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": -166.81868007237222,
+			"y": 234.77013885958536,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JaJEmU9xzodF_cy3sPGoZ",
+			"type": "geo",
+			"props": {
+				"w": 884,
+				"h": 648.0625,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "1. What belongs to "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "Vehicle"
+								},
+								{
+									"type": "text",
+									"text": "?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "A vehicle represents one physical unit. It should know its own details and current rental status."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Reasonable responsibilities:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Store its identity and attributes:"
+												}
+											]
+										},
+										{
+											"type": "bulletList",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "listItem",
+													"attrs": {
+														"dir": "auto"
+													},
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "company name"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"attrs": {
+														"dir": "auto"
+													},
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "vehicle number"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"attrs": {
+														"dir": "auto"
+													},
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "power type"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"attrs": {
+														"dir": "auto"
+													},
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "vehicle type"
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"attrs": {
+														"dir": "auto"
+													},
+													"content": [
+														{
+															"type": "paragraph",
+															"attrs": {
+																"dir": "auto"
+															},
+															"content": [
+																{
+																	"type": "text",
+																	"text": "inventory number"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Know whether it is available or rented."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Change its availability through controlled operations."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Provide its details when requested."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Possibly determine its base rental rate from its vehicle type."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "For example, "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "Vehicle"
+								},
+								{
+									"type": "text",
+									"text": " should be able to answer: “Am I available?” “What is my inventory number?” “What is my vehicle type?”"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It should not decide who can rent it or create a rental transaction."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:bc0Vbe_x7-qUoknEdkJC_",
+			"index": "a14Qf",
+			"typeName": "shape"
 		},
 		{
 			"x": 553.2119580538401,
@@ -854,6 +2003,217 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": -437.9117829073752,
+			"y": 2178.705200435671,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:lCBj54UhZ3LcVn1mi5JNm",
+			"type": "geo",
+			"props": {
+				"w": 504,
+				"h": 331.6844898371123,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "A vehicle is not a rental"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Vehicle "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "V001"
+												},
+												{
+													"type": "text",
+													"text": " is a Honda Activa."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Customer "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "C001"
+												},
+												{
+													"type": "text",
+													"text": " rents it."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Rental "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "R001"
+												},
+												{
+													"type": "text",
+													"text": " records the transaction."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "When the vehicle is returned, "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "R001"
+												},
+												{
+													"type": "text",
+													"text": " remains as history, while "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "V001"
+												},
+												{
+													"type": "text",
+													"text": " becomes available again."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aCes2",
+			"typeName": "shape"
 		},
 		{
 			"x": 217.01194584680894,
@@ -1155,6 +2515,239 @@
 		},
 		{
 			"meta": {},
+			"id": "binding:bnE4daoBlsutDVY5QNQzJ",
+			"type": "arrow",
+			"fromId": "shape:YGiF4oglqlbr8vnl59rQ6",
+			"toId": "shape:ivHI7DBHNNtFX38HJJUjl",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -85.3706243028214,
+			"y": 1666.252799330983,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:gYJWajxbOk_vG3QdtVL03",
+			"type": "geo",
+			"props": {
+				"w": 1309,
+				"h": 376.65892702494693,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Suggested domain model"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "highlight"
+														},
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Vehicle"
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": ": "
+												},
+												{
+													"type": "text",
+													"text": "Represents one physical vehicle in the fleet. Owns its details, rate, and availability state."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "highlight"
+														},
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Customer"
+												},
+												{
+													"type": "text",
+													"text": ": Represents a person who can rent vehicles. Owns customer information and identity."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "highlight"
+														},
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Rental"
+												},
+												{
+													"type": "text",
+													"text": ": Represents one rental transaction: which customer rented which vehicle, when it started, expected return time, actual return time, and final cost."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "highlight"
+														},
+														{
+															"type": "bold"
+														}
+													],
+													"text": "RentalService"
+												},
+												{
+													"type": "text",
+													"text": ": Coordinates operations: rent a vehicle, return it, extend a rental, calculate charges, and enforce business rules."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aBnWv",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:NjOIpNRbr0KQRPWi5SgpD",
+			"type": "arrow",
+			"fromId": "shape:civvGQ494RS-1KyuSgLuv",
+			"toId": "shape:ukpHXOHRxHYl6s8AsViNm",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
 			"id": "binding:BoB32nkRKJwBr4UiNMf2q",
 			"type": "arrow",
 			"fromId": "shape:u0CAj1acKvXPQQaWMcWBW",
@@ -1229,6 +2822,45 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -462.19699947954314,
+			"y": 1634.1451034635638,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:pZellEGomOVHGKeS3MkA3",
+			"type": "geo",
+			"props": {
+				"w": 2285.192383065435,
+				"h": 1076.3843573052136,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aJWYn",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:TvZROLBW5xJB2ky2ALfH-",
 			"type": "arrow",
@@ -1245,6 +2877,687 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:Gxk2nABJc9ufpBpKedwQh",
+			"type": "arrow",
+			"fromId": "shape:qmqh-PoPuW7YVCtVtXdE-",
+			"toId": "shape:XVK4iDnV1etX5rzV1g1CD",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0,
+					"y": 0.5
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"editingShapeId": "shape:29vrFU6fKVHaEPqeK86yj",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:29vrFU6fKVHaEPqeK86yj"
+			],
+			"hoveredShapeId": "shape:29vrFU6fKVHaEPqeK86yj",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:bc0Vbe_x7-qUoknEdkJC_",
+			"pageId": "page:bc0Vbe_x7-qUoknEdkJC_",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 727.1813199276278,
+			"y": 234.77013885958536,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7aqE2sXJ5K5vNdfZMTKIc",
+			"type": "geo",
+			"props": {
+				"w": 884,
+				"h": 648.0625,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "2. What belongs to "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "RentalService"
+								},
+								{
+									"type": "text",
+									"text": "?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "RentalService"
+								},
+								{
+									"type": "text",
+									"text": " coordinates the business workflow. It works with vehicles, customers, and rentals."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Reasonable responsibilities:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Rent a vehicle to a customer."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Check whether the vehicle can be rented."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Create a "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "Rental"
+												},
+												{
+													"type": "text",
+													"text": " record."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Connect the customer, vehicle, and rental."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Process a vehicle return."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Calculate the final rental cost."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Handle extensions and early returns."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Maintain rental history."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Enforce rules such as “a customer cannot rent an already-rented vehicle.”"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Why? Because renting is not an operation on a vehicle alone. It involves at least a vehicle, a customer, and a rental transaction."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:bc0Vbe_x7-qUoknEdkJC_",
+			"index": "a2Yzc",
+			"typeName": "shape"
+		},
+		{
+			"x": 950.274661835535,
+			"y": 2170.1344198305846,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ukpHXOHRxHYl6s8AsViNm",
+			"type": "geo",
+			"props": {
+				"w": 807,
+				"h": 481.5500183105469,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "File responsibility"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "vehicals.py"
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": ": Vehicle"
+												},
+												{
+													"type": "text",
+													"text": " and any genuinely necessary vehicle subclasses"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "customer.py"
+												},
+												{
+													"type": "text",
+													"text": ": Customer data and customer-specific ehaviour"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "rental.py"
+												},
+												{
+													"type": "text",
+													"text": ": Rental transaction and its state"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "rental_service.py:"
+												},
+												{
+													"type": "text",
+													"text": " Coordinates rental operations and applies business rules"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "admin.py"
+												},
+												{
+													"type": "text",
+													"text": ": Owner-specific actions, such as adding vehicles and changing rates"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "storage.py"
+												},
+												{
+													"type": "text",
+													"text": ": Reads and writes JSON data"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "main.py"
+												},
+												{
+													"type": "text",
+													"text": ": Starts the application and handles the menus"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														},
+														{
+															"type": "code"
+														}
+													],
+													"text": "support.py"
+												},
+												{
+													"type": "text",
+													"text": ": Only genuinely reusable helper functions, if needed"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aCv02V",
+			"typeName": "shape"
 		},
 		{
 			"x": 225.61198246790258,
@@ -1331,6 +3644,24 @@
 			"typeName": "shape"
 		},
 		{
+			"meta": {},
+			"id": "binding:nRvoynNvPmudIjtquyyoi",
+			"type": "arrow",
+			"fromId": "shape:civvGQ494RS-1KyuSgLuv",
+			"toId": "shape:gYJWajxbOk_vG3QdtVL03",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
 			"x": 643.6121655733714,
 			"y": 527.3929899673121,
 			"rotation": 0,
@@ -1373,6 +3704,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 496.65878388556496,
+			"y": 2075.2810689810663,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nw4YY0n-IT9iN0WlIF-6l",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 62.6875,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Rules"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aGXzo",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:poRDQo41bxPEU53Fsb3rE",
 			"type": "arrow",
@@ -1389,6 +3762,14 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": -489.6970723738184,
+			"y": 334.28508907318087,
+			"z": 0.387420489,
+			"meta": {},
+			"id": "camera:page:bc0Vbe_x7-qUoknEdkJC_",
+			"typeName": "camera"
 		},
 		{
 			"meta": {},
@@ -1408,11 +3789,12 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "black",
 				"tldraw:geo": "rectangle",
-				"tldraw:arrowKind": "elbow",
+				"tldraw:horizontalAlign": "middle",
+				"tldraw:size": "l",
 				"tldraw:font": "sans",
-				"tldraw:arrowheadStart": "none"
+				"tldraw:color": "black",
+				"tldraw:arrowKind": "elbow"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -1427,7 +3809,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1231.2000732421875,
+				"w": 1219.2000732421875,
 				"h": 692
 			},
 			"insets": [
@@ -1453,7 +3835,7 @@
 			"duplicateProps": null,
 			"cameraState": "idle",
 			"id": "instance:instance",
-			"currentPageId": "page:page",
+			"currentPageId": "page:bc0Vbe_x7-qUoknEdkJC_",
 			"typeName": "instance"
 		},
 		{
@@ -1523,6 +3905,375 @@
 			},
 			"parentId": "page:page",
 			"index": "a3sSU",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:En3GtlxEoKmBLqAoQgS3-",
+			"type": "arrow",
+			"fromId": "shape:0kM5k3DNKSV385erNmzCh",
+			"toId": "shape:lCBj54UhZ3LcVn1mi5JNm",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:_6sNPcmTZFzx_v4KFaUSn",
+			"type": "arrow",
+			"fromId": "shape:0kM5k3DNKSV385erNmzCh",
+			"toId": "shape:gYJWajxbOk_vG3QdtVL03",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1621.1813199276278,
+			"y": 234.77013885958536,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:29vrFU6fKVHaEPqeK86yj",
+			"type": "geo",
+			"props": {
+				"w": 884,
+				"h": 648.0625,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 35,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "3. Your pricing decision needs one clarification"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "You said different vehicle types cost different prices. That suggests a base rate, but where should the rate live?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "There are two reasonable designs:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Rate belongs to each "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "Vehicle"
+												},
+												{
+													"type": "text",
+													"text": ": each physical unit stores its own rate. This allows two cars of the same type to have different prices."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Rate belongs to a pricing policy: the system determines the rate from vehicle type. This avoids storing repeated prices on every vehicle and makes price changes easier."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Don't choose based on which is easier to code. Choose based on your intended business rule."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "For now, answer these:"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Can two vehicles of the same type have different rental rates?"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Is the price fixed per day, per hour, or both?"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "When a vehicle is rented, should its status change from "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "AVAILABLE"
+												},
+												{
+													"type": "text",
+													"text": " to "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "RENTED"
+												},
+												{
+													"type": "text",
+													"text": "? Who should trigger that change: "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "Vehicle"
+												},
+												{
+													"type": "text",
+													"text": " or "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "RentalService"
+												},
+												{
+													"type": "text",
+													"text": "?"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:bc0Vbe_x7-qUoknEdkJC_",
+			"index": "a3hPE",
+			"typeName": "shape"
+		},
+		{
+			"x": 562.3190404208731,
+			"y": 2040.9969678592515,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:civvGQ494RS-1KyuSgLuv",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 645.223592862447,
+					"y": 178.07678015717966
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aCyAzX",
 			"typeName": "shape"
 		},
 		{
