@@ -1,8 +1,6 @@
 import os
 import json
 
-from support import Supports
-
 class Data:
     """This classs handels data tasks like reading or writing"""
     # --------------------| Load data and return copy |--------------------
@@ -17,11 +15,10 @@ class Data:
             with open(file_path, "r") as file:
                 data = json.load(file)
             return data
+        
         except Exception as e:
             print(f"Error occured during data loading: \n{e}")
-
-        print("Data loded successfully")
-        return None
+            return None
 
     # --------------------| Write data |--------------------
     @staticmethod
@@ -35,9 +32,7 @@ class Data:
             with open(file_path, "w") as file:
                 json.dump(data, file, indent=4)
 
-            print("Succesfully updated data")
+            print("Data update successfully")
+
         except Exception as e:
             print(f"Error occured during data updating: \n{e}")
-
-        print("Data update successfully")
-        return None

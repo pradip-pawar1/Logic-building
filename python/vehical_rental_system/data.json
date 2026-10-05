@@ -6,7 +6,8 @@
             "Model": "v1.0",
             "Fuel type": "EV",
             "Inv. No.": "V001",
-            "Vehicle type": "Car"
+            "Vehicle type": "Car",
+            "Rental status": true
         },
         {
             "Company": "Mahindra",
@@ -14,7 +15,8 @@
             "Model": "v2.0",
             "Fuel type": "Diesel",
             "Inv. No.": "V002",
-            "Vehicle type": "Car"
+            "Vehicle type": "Car",
+            "Rental status": false
         }
     ],
     "bike": [
@@ -24,7 +26,8 @@
             "Model": "v2.0",
             "Fuel type": "Petrol",
             "Inv. No.": "V003",
-            "Vehicle type": "Bike"
+            "Vehicle type": "Bike",
+            "Rental status": false
         }
     ],
     "auto": [],
