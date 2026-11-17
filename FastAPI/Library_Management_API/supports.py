@@ -1,20 +1,29 @@
 import json
+from pathlib import Path
 
 
 class Support:
     '''This class provides supporting functions to main API'''
+
+    BASE_DIR = Path(__file__).resolve().parent
+    DATA_FILE = BASE_DIR / "data.json"
+
     @classmethod
     def load_data(cls) -> dict:
         '''This method returns the copy of JSON data as a python `dict`'''
-        with open("data.json", "r") as file:
-            data = json.load(file)
+        # create data.json file if it not exists
+        if not cls.DATA_FILE.exists():
+            with open(cls.DATA_FILE, "w") as file:
+                json.dump({}, file)
 
+        with open(cls.DATA_FILE, "r") as file:
+            data = json.load(file)
         return data
 
     @classmethod
     def save_data(cls, data:dict) -> None:
         '''This mathod save the provided data to original JSON data'''
-        with open("data.json", "w") as file:
+        with open(cls.DATA_FILE, "w") as file:
             json.dump(data, file, indent=4)
 
     @classmethod
