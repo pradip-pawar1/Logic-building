@@ -20,14 +20,22 @@ class Details(BaseModel):
     @field_validator("author")
     @classmethod
     def check_author(cls, value) -> str:
-        if value.replace(" ", "").isalpha():
+        if not value.replace(" ", "").isalpha():
             raise ValueError("Author cannot conatin numeric or special character")
         return value.title()
 
     @computed_field
     @property
-    def new_id() -> str:
+    def new_id(self) -> str:
         return Support.create_id()
+
+
+class Verify(BaseModel):
+    '''This class will checks for updated data'''
+    title : str | None = Field(None)
+    author : str | None = Field(None)
+    publication_year : int | None = Field(None, gt=999, le=2026, examples=[2005])
+    gener : str | None = Field(None, examples=["self-help"])
 
 
 # ------------------ | API | --------------- 
@@ -80,7 +88,7 @@ def pages(
     
 
 # create/add new book in database
-@app.post('/add')
+@app.post('/add', status_code=201)
 def add_book(book:Details):
     # load data
     data = Support.load_data()
@@ -90,7 +98,49 @@ def add_book(book:Details):
 
     return {
         "message":"New book added successfully",
+        "assign ID": book.new_id,
         "data":book.model_dump()
     }
 
 
+@app.put('/update/{book_id}', status_code=200)
+def update(check:Verify,
+           book_id : str = Path(..., description="Id of the book", examples=["B001"])
+           ):
+
+    data = Support.load_data()
+
+    # check if book id is valid or not
+    if not book_id in data:
+        raise HTTPException(
+            status_code=404,
+            detail=f"{book_id} was not found in DB, please try with correct ID"
+        )
+
+    updated_data = check.model_dump(exclude_unset=True)
+    data[book_id].update(updated_data)
+    Support.save_data(data)
+
+    return {
+        "Message": "Book detail updated succesfully",
+        "Updated fields": updated_data,
+        "Book": data[book_id]
+    }
+
+@app.delete('/delete/{book_id}', status_code=204)
+def delete(book_id: str = Path(..., description="provide valid book id", examples=["B001"])):
+
+    data = Support.load_data()
+
+    if not book_id in data:
+        raise HTTPException(
+            status_code=404,
+            detail=f"ID not found in DB"
+        )
+
+    del data[book_id]
+    Support.save_data(data)
+
+    return {
+        "Message":f"Book no.{book_id} deleted succesfully"
+    }

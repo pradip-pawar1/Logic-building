@@ -19,5 +19,23 @@
         "publication_year": 2008,
         "genre": "Programming",
         "is_available": true
+    },
+    "B004": {
+        "title": "Attitude Is Everything",
+        "author": "Jeff Killer",
+        "publication_year": 1999,
+        "gener": "self-help"
+    },
+    "B005": {
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "publication_year": 2020,
+        "gener": "self-help, finance"
+    },
+    "B006": {
+        "title": "The 48 Laws of Power",
+        "author": "Robert Greene",
+        "publication_year": 1999,
+        "gener": "self-help"
     }
 }

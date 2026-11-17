@@ -10,3 +10,6 @@ python/vehical_rental_system/dummy.json
 # skip one file
 !C++/RPG_Character/game.exe
 C++/test.cpp
+
+# all python test files
+*test.py
