@@ -37,5 +37,23 @@
         "author": "Robert Greene",
         "publication_year": 1999,
         "gener": "self-help"
+    },
+    "B007": {
+        "title": "Help Me",
+        "author": "Pradip Pawar",
+        "publication_year": 2015,
+        "gener": "fiction"
+    },
+    "B008": {
+        "title": "The Wizard Of Oz",
+        "author": "Frank Baum",
+        "publication_year": 1900,
+        "gener": "fiction"
+    },
+    "B009": {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "publication_year": 1988,
+        "gener": "novel"
     }
 }

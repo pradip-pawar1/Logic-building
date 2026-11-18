@@ -24,10 +24,10 @@ class Details(BaseModel):
             raise ValueError("Author cannot conatin numeric or special character")
         return value.title()
 
-    @computed_field
-    @property
-    def new_id(self) -> str:
-        return Support.create_id()
+    @field_validator("title")
+    @classmethod
+    def format_title(cls, value) -> str:
+        return value.title()
 
 
 class Verify(BaseModel):
@@ -36,6 +36,18 @@ class Verify(BaseModel):
     author : str | None = Field(None)
     publication_year : int | None = Field(None, gt=999, le=2026, examples=[2005])
     gener : str | None = Field(None, examples=["self-help"])
+
+    @field_validator("author")
+    @classmethod
+    def check_author(cls, value) -> str:
+        if not value.replace(" ", "").isalpha():
+            raise ValueError("Author cannot conatin numeric or special character")
+        return value.title()
+
+    @field_validator("title")
+    @classmethod
+    def format_title(cls, value) -> str:
+        return value.title()
 
 
 # ------------------ | API | --------------- 
@@ -93,13 +105,15 @@ def add_book(book:Details):
     # load data
     data = Support.load_data()
 
-    data[book.new_id] = book.model_dump(exclude={"new_id"})
+    new_id = Support.create_id()
+
+    data[new_id] = book.model_dump()
     Support.save_data(data)
 
     return {
         "message":"New book added successfully",
-        "assign ID": book.new_id,
-        "data":book.model_dump()
+        "assign ID": new_id,
+        "data": book.model_dump()
     }
 
 
