@@ -15,7 +15,7 @@ class Details(BaseModel):
     title           : str = Field(..., description="Name of book", examples=["Atomic Habits"])
     author          : str = Field(..., description="Name of an author", examples=["James clear"])
     publication_year: int = Field(..., gt=999, le=2026, description="year of book published", examples=[2005])
-    gener           : str = Field(..., examples=["self-help"])
+    genre           : str = Field(..., examples=["self-help"])
 
     @field_validator("author")
     @classmethod
@@ -35,7 +35,7 @@ class Verify(BaseModel):
     title : str | None = Field(None)
     author : str | None = Field(None)
     publication_year : int | None = Field(None, gt=999, le=2026, examples=[2005])
-    gener : str | None = Field(None, examples=["self-help"])
+    genre : str | None = Field(None, examples=["self-help"])
 
     @field_validator("author")
     @classmethod
@@ -57,17 +57,31 @@ class Verify(BaseModel):
 def home():
     return{"message":"Welcome to Book Library Management System"}
 
+@app.get('/book/{book_id}')
+def one_book(book_id:str = Path(..., examples=["B001"])):
+    data = Support.load_data()
+
+    if not book_id in data:
+        raise HTTPException(
+            status_code=404,
+            detail=f"ID: {book_id} not found in library"
+        )
+    return {
+        "book ID" : book_id,
+        "detail" : data[book_id]
+    }
+
 # pagination
 @app.get('/pages')
 def pages(
     page : int = Query(1, ge=1, le=100, description="number of page you want to view"),
-    limit : int = Query(4, ge=4, le=10, description="Amount of data you want to see on a single page"),
+    limit : int = Query(1, ge=1, le=10, description="Amount of data you want to see on a single page"),
     sort_by : str = "title",
     order : str = "asc"
 ):
     # important data 
-    FIELD = ["id", "title", "author", "publication_year", "gener"]
-    SORT_ORDER = ["asc", "dsc"]
+    FIELD = ["title", "author", "publication_year", "genre"]
+    SORT_ORDER = ["asc", "desc"]
     START = (page - 1) * limit
     END = START + limit
 
@@ -86,7 +100,7 @@ def pages(
 
     data = Support.load_data()
 
-    is_descending = (order=="dsc")
+    is_descending = (order=="desc")
     sorted_items = sorted(data.items(), key=lambda x: x[1][sort_by], reverse=is_descending)
     pages = sorted_items[START:END]
 
@@ -104,7 +118,6 @@ def pages(
 def add_book(book:Details):
     # load data
     data = Support.load_data()
-
     new_id = Support.create_id()
 
     data[new_id] = book.model_dump()
@@ -141,7 +154,7 @@ def update(check:Verify,
         "Book": data[book_id]
     }
 
-@app.delete('/delete/{book_id}', status_code=204)
+@app.delete('/delete/{book_id}')
 def delete(book_id: str = Path(..., description="provide valid book id", examples=["B001"])):
 
     data = Support.load_data()

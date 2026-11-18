@@ -27,7 +27,7 @@ class Support:
             json.dump(data, file, indent=4)
 
     @classmethod
-    def get_keys(cls) -> str:
+    def get_keys(cls) -> list[str]:
         '''Returns missing or unused keys in between all keys'''
         data = cls.load_data()
         keys = []
